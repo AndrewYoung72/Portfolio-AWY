@@ -19,7 +19,7 @@ img {
   background-image: url(file:///Users/andrewyoung/Pictures/Photos%20Library.photoslibrary/private/com.apple.Photos/ExternalEditSessions/2C8235B0-FA73-4BA2-A6A8-E49686D01EE4/IMG_0524.jpeg);
   background-color: #cccccc;
   justify-content: center;
-  align-items: flex-start;
+  align-items: stretch;
   display: flex;
 }
 
