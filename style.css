@@ -9,6 +9,7 @@ html, body {
 p {
   display: flex;
   justify-items: flex-end;
+  align-items: flex-end;
   font-size: 30px;
   font-weight: 500;
   color: antiquewhite;
@@ -24,19 +25,25 @@ img {
   border:  5px ridge silver;
 }
 
+h2 {
+  border: 5px 5px 5px 5px ridge silver;
+  color: ivory;
+}
+
 .headers-section {
   background-image: url(file:///Users/andrewyoung/Pictures/Photos%20Library.photoslibrary/private/com.apple.Photos/ExternalEditSessions/DF556EDC-77AC-4192-8097-2983C1052775/IMG_0300.jpeg);
-  background-color: #cccccc;
-  justify-content: space-around;
-  align-content: center;
-  display: inline-flex;
-  flex-wrap: wrap;
-  flex-direction: row;
   width: 100%;
   height: 300px;
 }
 
-#navbar li {
-  display: inline-flex;
-  flex-direction: row;
+
+ .headers-section li {
+  display: inline-block;
+} 
+
+#phrase {
+  display:flex;
+  justify-content: flex-end;
+  align-content:center;
+  align-items: flex-end;
 }
