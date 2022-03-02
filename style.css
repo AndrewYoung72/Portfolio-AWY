@@ -18,6 +18,7 @@ p {
 img {
   display: flex;
   justify-content: left;
+  align-content:flex-end;
   width: 200px;
   height: 200px;
   margin: 0;
@@ -31,19 +32,35 @@ h2 {
 }
 
 .headers-section {
-  background-image: url(file:///Users/andrewyoung/Pictures/Photos%20Library.photoslibrary/private/com.apple.Photos/ExternalEditSessions/DF556EDC-77AC-4192-8097-2983C1052775/IMG_0300.jpeg);
-  width: 100%;
-  height: 300px;
+  padding: 20px;
+  background-color: darkblue;
+  color: whitesmoke;
 }
 
 
- .headers-section li {
+.headers-section h1 {
   display: inline-block;
+  font-size: 45px;
+  background-color: cornflowerblue 10px 10px;
 } 
 
-#phrase {
-  display:flex;
-  justify-content: flex-end;
-  align-content:center;
-  align-items: flex-end;
+.headers-section div {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-size: 20px;
+  color: antiquewhite;
+}
+
+.headers-section div ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+a {
+  color:antiquewhite;
+}
+
+main {
+  background-image: linear-gradient(silver, cornflowerblue);
 }
