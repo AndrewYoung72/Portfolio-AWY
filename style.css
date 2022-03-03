@@ -1,7 +1,14 @@
+:root {
+  --main-space:linear-gradient(silver, cornflowerblue);
+}
+
+
+
+
 html, body {
-  background-color: lightblue;
+  background-image: var(--main-space);
   font-family: 'Times New Roman', Times, serif;
-  font-size: 20px;
+  font-size: 100%;
   font-weight: 300;
   overflow-x: hidden;
 
@@ -10,7 +17,7 @@ p {
   display: flex;
   justify-items: flex-end;
   align-items: flex-end;
-  font-size: 30px;
+  font-size: 15px;
   font-weight: 500;
   color: antiquewhite;
 }
@@ -28,7 +35,7 @@ img {
 
 h2 {
   border: 5px 5px 5px 5px ridge silver;
-  color: ivory;
+  color: black;
 }
 
 .headers-section {
@@ -61,6 +68,38 @@ a {
   color:antiquewhite;
 }
 
-main {
-  background-image: linear-gradient(silver, cornflowerblue);
+.aboutme-container {
+  background-color: whitesmoke;
+  color: black;
+  margin:10px;
+  width:650px;
+  height:250px;
+  display: inline-block;
+}
+
+.work-container {
+  background-color: whitesmoke;
+  color: black;
+  margin:10px;
+  width:650px;
+  height:250px;
+  display: inline-block;
+}
+
+.contactme-container {
+  background-color: whitesmoke;
+  color: black;
+  margin:10px;
+  width:650px;
+  height:250px;
+  display: inline-block;
+}
+
+.resume-container {
+  background-color: whitesmoke;
+  color: black;
+  margin:10px;
+  width:650px;
+  height:250px;
+  display: inline-block;
 }
