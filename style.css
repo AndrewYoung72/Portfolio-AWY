@@ -5,8 +5,7 @@
 
 
 
-
-html, body {
+body {
   background-image: var(--main-space);
   font-family: 'Times New Roman', Times, serif;
   font-size: 100%;
@@ -15,18 +14,14 @@ html, body {
 
 }
 p {
-  display: flex;
-  justify-items: flex-end;
-  align-items: flex-end;
   font-size: 15px;
   font-weight: 500;
   color: antiquewhite;
 }
 
+
 img {
   display: flex;
-  justify-content: left;
-  align-content:flex-end;
   width: 200px;
   height: 200px;
   margin: 0;
@@ -39,6 +34,16 @@ h2 {
   color: black;
 }
 
+main {
+  display:flex 1 0 100%;
+  flex-direction: inline-block;
+  flex-wrap: wrap;
+}
+
+a {
+  color:antiquewhite;
+}
+
 .headers-section {
   padding: 20px;
   background-color: darkblue;
@@ -49,7 +54,6 @@ h2 {
 .headers-section h1 {
   display: inline-block;
   font-size: 45px;
-  background-color: cornflowerblue 10px 10px;
 } 
 
 .headers-section div {
@@ -59,35 +63,29 @@ h2 {
   font-size: 20px;
   color: antiquewhite;
 }
-
-.headers-section div ul li {
-  display: inline-block;
+ .headers-section div ul li {
+  display: inline-flex;
   margin-left: 25px;
-}
-
-a {
   color:antiquewhite;
-}
+} 
 
-main {
-  display:flex 1 0 200px;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
+
+
 
 .figure-box {
   flex: 1 0 100%;
   padding: 10px;
   transition: flex-basis 500ms linear;
   margin-bottom: border-box;
-  background-color: floralwhite;
+  display: inline-flex;
 }
 
-.figure-card {
+.figure-box .figure-card {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-start;
+  align-content: center;
   min-height: 100%;
   width: 650px;
   height: 250px;
@@ -100,52 +98,41 @@ main {
 
 .figure-card .figure-header {
   position:relative;
-  margin: -4rem 0 1.5rem 0;
+  margin: -3rem 0 0.5rem 0;
   padding: 0.5rem 1rem;
   background-color: var(--header-box);
   color: blueviolet;
   border: 2px solid darkslateblue;
   border-radius: 50px;
-  transition: all 0.5s ease-in-out;
+  
 }
 
 .container {
-  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-evenly;
   color: black;
   margin:10px;
   width:650px;
   height:250px;
-  display: inline-block;
 }
 
-.box {
+.figure-box {
   padding:10px;
   transition: flex-basis 500ms linear;
   margin-bottom: 10px;
 }
 
-/* .aboutme-container {
-  background-color: whitesmoke;
-  color: black;
-  margin:10px;
-  width:650px;
-  height:250px;
-  display: inline-block;
-} */
+
 
 .aboutme-header {
   position: relative;
   margin-top: -20px;
 }
 
-/* .work-container {
-  background-color: whitesmoke;
-  color: black;
-  margin:10px;
-  width:650px;
-  height:250px;
-  display: inline-block;
-} */
+
 
 .contactme-container {
   background-color: whitesmoke;
