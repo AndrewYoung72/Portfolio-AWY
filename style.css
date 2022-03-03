@@ -1,5 +1,6 @@
 :root {
   --main-space:linear-gradient(silver, cornflowerblue);
+  --header-box:linear-gradient(pink, white);
 }
 
 
@@ -34,7 +35,7 @@ img {
 }
 
 h2 {
-  border: 5px 5px 5px 5px ridge silver;
+  background-color: var(--header-box);
   color: black;
 }
 
@@ -68,7 +69,47 @@ a {
   color:antiquewhite;
 }
 
-.aboutme-container {
+main {
+  display:flex 1 0 200px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.figure-box {
+  flex: 1 0 100%;
+  padding: 10px;
+  transition: flex-basis 500ms linear;
+  margin-bottom: border-box;
+  background-color: floralwhite;
+}
+
+.figure-card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  min-height: 100%;
+  width: 650px;
+  height: 250px;
+  padding: 10px;
+  color:var(--header-box);
+  outline: 5px solid darkslateblue;
+  outline-offset: -2px;
+  transition: all 0.5s ease-in-out;
+}
+
+.figure-card .figure-header {
+  position:relative;
+  margin: -4rem 0 1.5rem 0;
+  padding: 0.5rem 1rem;
+  background-color: var(--header-box);
+  color: blueviolet;
+  border: 2px solid darkslateblue;
+  border-radius: 50px;
+  transition: all 0.5s ease-in-out;
+}
+
+.container {
   background-color: whitesmoke;
   color: black;
   margin:10px;
@@ -77,14 +118,34 @@ a {
   display: inline-block;
 }
 
-.work-container {
+.box {
+  padding:10px;
+  transition: flex-basis 500ms linear;
+  margin-bottom: 10px;
+}
+
+/* .aboutme-container {
   background-color: whitesmoke;
   color: black;
   margin:10px;
   width:650px;
   height:250px;
   display: inline-block;
+} */
+
+.aboutme-header {
+  position: relative;
+  margin-top: -20px;
 }
+
+/* .work-container {
+  background-color: whitesmoke;
+  color: black;
+  margin:10px;
+  width:650px;
+  height:250px;
+  display: inline-block;
+} */
 
 .contactme-container {
   background-color: whitesmoke;
