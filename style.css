@@ -88,6 +88,7 @@
   color: white;
   align-items: center;
   padding: 20px;
+  margin-bottom: 50px;
 }
 
 .videos {
@@ -101,6 +102,17 @@
   width: 360px;
   height: 240px;
   margin: 10px;
+}
+
+#Resume {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: whitesmoke;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 50px;
 }
 
 
