@@ -1,153 +1,46 @@
-:root {
-  --main-space:linear-gradient(silver, cornflowerblue);
-  --header-box:linear-gradient(pink, white);
-}
-
-
-
-body {
-  background-image: var(--main-space);
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 100%;
-  font-weight: 300;
-  overflow-x: hidden;
-
-}
-p {
-  font-size: 15px;
-  font-weight: 500;
-  color: antiquewhite;
-}
-
-
-img {
-  display: flex;
-  width: 200px;
-  height: 200px;
+* {
   margin: 0;
-  padding: 0;
-  border:  5px ridge silver;
+  padding:0;
+  box-sizing: border-box;
 }
 
-h2 {
-  background-color: var(--header-box);
-  color: black;
-}
-
-main {
-  display:flex 1 0 100%;
-  flex-direction: inline-block;
-  flex-wrap: wrap;
-}
-
-a {
-  color:antiquewhite;
-}
-
-.headers-section {
-  padding: 20px;
-  background-color: darkblue;
-  color: whitesmoke;
-}
-
-
-.headers-section h1 {
-  display: inline-block;
-  font-size: 45px;
-} 
-
-.headers-section div {
-  padding-top: 15px;
-  margin-right: 20px;
-  float: right;
-  font-size: 20px;
-  color: antiquewhite;
-}
- .headers-section div ul li {
-  display: inline-flex;
-  margin-left: 25px;
-  color:antiquewhite;
-} 
-
-
-
-
-.figure-box {
-  flex: 1 0 100%;
-  padding: 10px;
-  transition: flex-basis 500ms linear;
-  margin-bottom: border-box;
-  display: inline-flex;
-}
-
-.figure-box .figure-card {
+.navbar {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-content: center;
-  min-height: 100%;
-  width: 650px;
-  height: 250px;
-  padding: 10px;
-  color:var(--header-box);
-  outline: 5px solid darkslateblue;
-  outline-offset: -2px;
-  transition: all 0.5s ease-in-out;
-}
-
-.figure-card .figure-header {
-  position:relative;
-  margin: -3rem 0 0.5rem 0;
-  padding: 0.5rem 1rem;
-  background-color: var(--header-box);
-  color: blueviolet;
-  border: 2px solid darkslateblue;
-  border-radius: 50px;
-  
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   justify-content: center;
-  align-content: space-evenly;
+  align-items: center;
+  background-color: silver;
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 20px 0px;
+}
+
+.navbar ul li {
+  font-family: serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar ul li a {
+  color: white;
+  padding: 8px 25px;
+  transition: all .5s ease;
+}
+
+.navbar ul li a:hover {
+  background-color: salmon;
   color: black;
-  margin:10px;
-  width:650px;
-  height:250px;
-}
-
-.figure-box {
-  padding:10px;
-  transition: flex-basis 500ms linear;
-  margin-bottom: 10px;
+  box-shadow: 0 0 10px white;
 }
 
 
 
-.aboutme-header {
-  position: relative;
-  margin-top: -20px;
-}
 
 
 
-.contactme-container {
-  background-color: whitesmoke;
-  color: black;
-  margin:10px;
-  width:650px;
-  height:250px;
-  display: inline-block;
-}
 
-.resume-container {
-  background-color: whitesmoke;
-  color: black;
-  margin:10px;
-  width:650px;
-  height:250px;
-  display: inline-block;
-}
+
