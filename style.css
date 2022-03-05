@@ -103,6 +103,10 @@
   height: 240px;
   margin: 10px;
 }
+#project {
+  width: 400px;
+  height: 320px;
+}
 
 #Resume {
   display: flex;
@@ -141,8 +145,17 @@
   transition: all .5s ease;
 } 
 
+@media screen and (max-width: 992px) {
+  header {
+    background-color: whitesmoke;
+  }
+}
 
-
+@media screen and (max-width: 768px) {
+  nav {
+    background-color: #bb8588;
+  }
+}
 
 
 
