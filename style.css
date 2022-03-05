@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 .navbar {
   display: flex;
   justify-content: center;
@@ -37,7 +38,44 @@
   box-shadow: 0 0 10px white;
 }
 
+#about-me {
+  display: flex;
+  flex-direction: column;
+  background-color: dimgray(0, 0, 0, 0.5);
+  height: 840px;
+  justify-content: center;
 
+}
+
+#about-me::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url(file:///Users/andrewyoung/Pictures/Photos%20Library.photoslibrary/private/com.apple.Photos/ExternalEditSessions/06C16141-46EE-4D5A-BE5B-29350E2DFC6C/IMG_0189.jpg) no-repeat center center/cover ;
+  height: 900px;
+  width: 100%;
+  z-index: -1;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid whitesmoke;
+  align-items: center;
+  position: absolute;
+  top: 10%;
+  right: 75%;
+}
+
+.head {
+  font-family: serif;
+  color: cyan;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px 0px;
+}
 
 
 
