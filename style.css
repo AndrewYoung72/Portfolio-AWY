@@ -115,6 +115,32 @@
   margin-bottom: 50px;
 }
 
+#contact {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: whitesmoke;
+  align-items: center;
+  padding: 20px;
+  margin-bottom:20px ;
+}
+
+.contact-list {
+  display: flex;
+  list-style: none;
+  margin: 20px 0; 
+
+}
+.contact-list ul li {
+  font-family: serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  padding: 8px 25px;
+  transition: all .5s ease;
+} 
+
 
 
 
