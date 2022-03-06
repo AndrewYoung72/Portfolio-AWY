@@ -9,3 +9,4 @@ The project did allow me to get a better grasp on css. I had a tough time with t
 
 
 
+![second attempt](https://drive.google.com/file/d/1nhkd0mbVRHsXUeVzJ5w-fzWwE1t75WXj/view?usp=sharing)
