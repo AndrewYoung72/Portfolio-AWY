@@ -8,5 +8,5 @@ However, this is just the begining of the process and this project serves as a l
 The project did allow me to get a better grasp on css. I had a tough time with the project, and wasn't able to acheive the results I wanted, but the site looks much better from where I started. My commmits should give some history to my learning process. I tired several methods before I found something that worked after several days of suffering.
 
 
-
+https://user-images.githubusercontent.com/97897877/158039228-d81cb618-50f2-46fd-91c4-fa0abd908db0.mp4
 
